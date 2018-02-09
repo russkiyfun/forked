@@ -4,6 +4,6 @@
   document.body.onmouseup = treatClick
 
   function treatClick(event) {
-    document.body.classList.add("clicked")
+    window.location.href = "html/00.html"
   }
 })()
